@@ -1,5 +1,10 @@
+import FavouritePlace from "./FavouritePlace"
+
 function MainContent(): JSX.Element {
-  return <></>;
+  return (
+  <FavouritePlace/>
+  
+  );
 }
 
 export default MainContent;
