@@ -1,4 +1,4 @@
-function PageHeader(): JSX.Element {
+function PageFooter(): JSX.Element {
   return (
     <footer>
       <h2>this is the page footer</h2>
@@ -6,4 +6,4 @@ function PageHeader(): JSX.Element {
   );
 }
 
-export default PageHeader;
+export default PageFooter;
