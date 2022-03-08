@@ -4,9 +4,9 @@ interface NavItemProps {
 }
 function NavItem(props: NavItemProps): JSX.Element {
   return (
-    <>
+    <div id="navItem">
       <a href={props.link}>{props.label}</a>
-    </>
+    </div>
   );
 }
 
