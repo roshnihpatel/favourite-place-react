@@ -1,8 +1,6 @@
-
-
-interface NavItemProps{
-  label:string
-  link:string
+interface NavItemProps {
+  label: string;
+  link: string;
 }
 function NavItem(props: NavItemProps): JSX.Element {
   return (

@@ -1,6 +1,6 @@
 interface FavouritePlaceProps {
   placeName: string;
-  sectionName:string
+  sectionName: string;
   location: { country: string; city: string };
   description: string;
   imageURL: string;
