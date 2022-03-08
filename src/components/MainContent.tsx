@@ -14,6 +14,15 @@ function MainContent(): JSX.Element {
         }
         imageDescription={"A valley with red peaks and greenery at the base"}
       />
+      <FavouritePlace
+        placeName={"Salar de Uyuni"}
+        location={{ country: "Bolivia", city: "Uyuni" }}
+        description={"###"}
+        imageURL={
+          "https://images.unsplash.com/photo-1526029655228-b7ee496c7819?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+        imageDescription={"vast salt flats and mountain peaks near the horizon"}
+      />
     </main>
   );
 }

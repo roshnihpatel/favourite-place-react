@@ -1,0 +1,43 @@
+/* [
+  "#a1dbb2",
+  "#fee5ad",
+  "#faca66",
+  "#f7a541",
+  "#f45d4c"
+] */
+
+body {
+    background-color: #fee5ad;
+    font: 28px, Tahoma, Verdana, sans-serif;
+    
+}
+
+header {
+  background-color: #a1dbb2;
+  
+  text-align: center;
+}
+
+#cat {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  
+
+}
+section {
+  background-color: #faca66;
+  width: 70%;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
