@@ -15,8 +15,9 @@ body {
 
 header {
   background-color: #a1dbb2;
-  
+  height: 100px;
   text-align: center;
+  margin: 0 auto;
 }
 
 #cat {
@@ -52,6 +53,18 @@ section {
   padding: 10px;
   margin: auto;
   font: 28px, Tahoma, Verdana, sans-serif;
+}
+
+footer {
+  background-color: #f7a541;
+  text-align: center;
+
+}
+#footerNav {
+  display: flex;
+  justify-content: space-between ;
+  width:70%;
+  margin:auto;
 }
 
 
