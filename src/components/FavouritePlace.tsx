@@ -11,9 +11,9 @@ function FavouritePlace(props: FavouritePlaceProps): JSX.Element {
     <section>
       <h2>{props.placeName}</h2>
 
-      <img ref={props.imageURL} alt={props.imageDescription} />
+      <img src={props.imageURL} alt={props.imageDescription} />
       <p>
-        {props.location.country},{props.location.city}
+        {props.location.country}, {props.location.city}
       </p>
       <p>{props.description}</p>
     </section>
