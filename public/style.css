@@ -9,6 +9,7 @@
 body {
     background-color: #fee5ad;
     font: 28px, Tahoma, Verdana, sans-serif;
+    margin: 0px;
     
 }
 
@@ -38,6 +39,22 @@ section {
   padding: 10px;
   text-align: center;
 }
+#navBar {
+  display: flex;
+  justify-content: space-between ;
+  width:50%;
+  
+}
+
+#navItem {
+  display:inline-block;
+  width: 10%;
+  padding: 10px;
+  margin: auto;
+}
+
+
+
 
 
 

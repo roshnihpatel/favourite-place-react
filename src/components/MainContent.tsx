@@ -17,7 +17,7 @@ function MainContent(): JSX.Element {
       />
       <FavouritePlace
         placeName={"Salar de Uyuni"}
-        sectionName={"'SalardeUyuni'"}
+        sectionName={"SalardeUyuni"}
         location={{ country: "Bolivia", city: "Uyuni" }}
         description={"###"}
         imageURL={
