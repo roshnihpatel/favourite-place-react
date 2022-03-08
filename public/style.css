@@ -8,12 +8,13 @@
 
 body {
     background-color: #fee5ad;
+    font: 28px, Tahoma, Verdana, sans-serif;
     
 }
 
 header {
   background-color: #a1dbb2;
-  font: 28px, Tahoma, Verdana, sans-serif;
+  
   text-align: center;
 }
 
@@ -33,7 +34,7 @@ img {
 section {
   background-color: #faca66;
   width: 70%;
-  margin: auto;
+  margin: 50px auto;
   padding: 10px;
   text-align: center;
 }
