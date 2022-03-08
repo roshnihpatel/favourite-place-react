@@ -1,5 +1,6 @@
 interface FavouritePlaceProps {
   placeName: string;
+  sectionName: string;
   location: { country: string; city: string };
   description: string;
   imageURL: string;
@@ -8,7 +9,7 @@ interface FavouritePlaceProps {
 
 function FavouritePlace(props: FavouritePlaceProps): JSX.Element {
   return (
-    <section>
+    <section id={props.sectionName}>
       <h2>{props.placeName}</h2>
       <div id="cat">
         <img src={props.imageURL} alt={props.imageDescription} />

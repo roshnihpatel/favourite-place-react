@@ -5,6 +5,7 @@ function MainContent(): JSX.Element {
     <main>
       <FavouritePlace
         placeName={"Valle Rojo (Red Valley)"}
+        sectionName={"ValleRojo"}
         location={{ country: "Peru", city: "Cusco" }}
         description={
           "The Red Valley's viewpoint sits at about 5,000m above sea level and is a 30-minute walk from the more well-known Rainbow Mountain (Vinicuna). But the valley's beautiful combination of deep and vibrant reds and contrasting patches of green create a unique and enchanting landscape that is definitely worth the trek."
@@ -16,6 +17,7 @@ function MainContent(): JSX.Element {
       />
       <FavouritePlace
         placeName={"Salar de Uyuni"}
+        sectionName={"'SalardeUyuni'"}
         location={{ country: "Bolivia", city: "Uyuni" }}
         description={"###"}
         imageURL={
