@@ -43,14 +43,15 @@ section {
   display: flex;
   justify-content: space-between ;
   width:50%;
+  margin:auto;
   
 }
 
 #navItem {
-  display:inline-block;
-  width: 10%;
+  width: 100%;
   padding: 10px;
   margin: auto;
+  font: 28px, Tahoma, Verdana, sans-serif;
 }
 
 
